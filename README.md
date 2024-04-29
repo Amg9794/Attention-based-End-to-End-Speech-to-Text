@@ -1,6 +1,6 @@
 # Writeup for HW4P2
 
-Author: Zongyue Zhao (zongyuez@andrew.cmu.edu)
+
 
 ## Verify the Results:
 Please run `utils/make_vocab.py` to parse the labels. Then, please run `python hw4.py --train --clip` until epoch 53.
