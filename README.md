@@ -14,8 +14,8 @@ All other hyperparameters are set to default in the scripts.
 The best performance is achieved from the following architecture:
 
 - The listen-attend-spell model (with key-value dot attention) (template provided by course bootcamp)
-- Locked dropout (from HW4P1) is applied between each two layers in the encoder.
-- Weight tying (also from HW4P1) is applied in the decoder.
+- Locked dropout is applied between each two layers in the encoder.
+- Weight tying is applied in the decoder.
 
 ## Loss Function and Optimizer:
 I used CrossEntropy (masked) and the Adam Optimizer.
